@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "webpack study",
   "scripts": {
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "dev": "node build/dev-server.js"
   },
   "author": "",
   "license": "ISC",

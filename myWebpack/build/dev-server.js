@@ -19,7 +19,7 @@ rm(path.resolve(__dirname,'../dist/js/'),(err) => { // 移除上一次打包的�
 		},
 		plugins: [
 			new webpack.DefinePlugin({
-				LOCAL_ROOT: JSON.stringify('https://jiaoxin2005.github.io/') // 允许你创建一个在编译时可以配置的全局常量
+				LOCAL_ROOT: JSON.stringify('https://jiaoxin2005.github.io/test/api')
 			})
 		]
 	},(err,stats)=>{

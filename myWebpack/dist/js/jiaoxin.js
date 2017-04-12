@@ -68,9 +68,12 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 alert('first webpack study project test');
+
+console.log("https://jiaoxin2005.github.io/test/api");
+
 
 /***/ })
 /******/ ]);
